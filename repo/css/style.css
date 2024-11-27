@@ -140,7 +140,9 @@ hr{
 .tabelle{
     width: 100%;
     height: 800px;
-    background-color: blueviolet;
+}
+
+.raccoglitore{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -154,6 +156,7 @@ hr{
     width: 20%;
     height: 600px;
     border: solid 2px black;
+
 }
 
 
@@ -172,7 +175,23 @@ hr{
     border: solid 2px black;
 }
 
+
+.tabellaseparata{
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
 .team-2{
+    background-color: rgb(19, 143, 200);
+    width: 63%;
+    height: 300px;
+    border: solid 2px black;
 
 }
 
