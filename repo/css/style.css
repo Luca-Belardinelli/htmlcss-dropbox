@@ -113,3 +113,67 @@
 
   }
 
+/* piano business */
+
+hr{
+    margin-top: 200px;
+}
+
+.businessplan{
+    width: 60%;
+    margin: 0 auto ;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.businessplan h2{
+    margin-bottom: 40px;
+}
+
+.businessplan span{
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+
+.tabelle{
+    width: 100%;
+    height: 800px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.singolo{
+    background-color: rgb(19, 143, 200);
+    width: 20%;
+    height: 600px;
+    border: solid 2px black;
+}
+
+
+.team{
+    background-color: rgb(19, 143, 200);
+    width: 20%;
+    height: 600px;
+    border: solid 2px black;
+}
+
+
+.azienda{
+    background-color: rgb(19, 143, 200);
+    width: 20%;
+    height: 600px;
+    border: solid 2px black;
+}
+
+.team-2{
+
+}
+
+
