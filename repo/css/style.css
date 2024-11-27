@@ -28,7 +28,6 @@
 
     .menu{
         display: inline-flex;
-        list-style: none;
         margin: 0;
         padding: 0;
         font-size: 18px;
@@ -124,6 +123,7 @@ hr{
     margin: 0 auto ;
     margin-top: 60px;
     margin-bottom: 60px;
+    padding-left: 110px;
     font-size: 30px;
 }
 
@@ -135,46 +135,77 @@ hr{
     font-size: 20px;
     padding-right: 40px;
 }
+ 
 
+/* tabelle */
 
 .tabelle{
     width: 100%;
-    height: 800px;
 }
 
 .raccoglitore{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 30px;
 }
 
+/* tabella .singolo */
+.card{
+    width: 15%;
+    border: solid 2px rgba(226, 225, 225, 0.529);
+    text-align: center;
+    padding: 20px 30px;
+    height: 1000px;
 
-.singolo{
-    background-color: rgb(19, 143, 200);
-    width: 20%;
-    height: 600px;
-    border: solid 2px black;
 
 }
 
 
-.team{
-    background-color: rgb(19, 143, 200);
-    width: 20%;
-    height: 600px;
-    border: solid 2px black;
+/* classi per il padding */
+
+.information{
+    padding: 20px 0;
+    text-align: left;
+}
+
+.tabelle p{
+    padding-top: 20px;
+    text-align: left;
+}
+
+.tabelle ul{
+    list-style: none;
+}
+
+.tabelle li{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
-.azienda{
-    background-color: rgb(19, 143, 200);
-    width: 20%;
-    height: 600px;
-    border: solid 2px black;
+.space{
+    text-align: left;
+    
 }
 
+.prova{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    width: 220px;
+
+}
+
+h3{
+    font-size: 25px;
+}
+
+
+
+/* tabella separata */
 
 .tabellaseparata{
     margin: 0 auto;
@@ -183,16 +214,37 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 200px;
+
 
 
 }
 
 .team-2{
-    background-color: rgb(19, 143, 200);
-    width: 63%;
+    width: 48%;
     height: 300px;
-    border: solid 2px black;
+    border: solid 2px rgba(226, 225, 225, 0.529);
+    padding:20px 30px;
+    
 
 }
 
+.enterprise{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
