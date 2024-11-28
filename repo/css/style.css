@@ -205,6 +205,8 @@ h3{
 
 
 
+/* tabella team2 */
+
 /* tabella separata */
 
 .tabellaseparata{
@@ -236,15 +238,136 @@ h3{
 }
 
 
+#palazzo{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.soluzioni{
+    padding-top: 40px;
+}
+
+
+/* tabella con foto seconda parte main */
+
+
+.partener{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+
+.colonnafoto{
+    width: 30%;
+}
+
+.partenerimg{
+    width: 100%;
+}
+
+
+.trova{
+    width: 15%;
+    padding-bottom: 100px;
+
+}
+
+#buttontrova{
+    margin-top: 40px;
+    background-color: white;
+    border: solid 1px gray;
+    padding: 10px;
+    font-size: 17px;
+}
 
 
 
 
 
+/* parte il main con 6 tabelle */
 
+.plan{
+    width: 60%;
+    margin: 0 auto ;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-left: 100px;
+    font-size: 25px;
+}
 
+.plan h2{
+    margin-bottom: 50px;
+
+}
+.plan a{
+    font-size: 17px;
+}
+
+.custodia{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    gap: 50px;
+}
+
+.strumento{
+  width: 25%;
+  height: 400px;
+  margin-bottom: 80px;
+}
+
+.box{
+    width: 100%;
+}
 
 
 
 
 /* footer */
+
+
+footer{
+    background-color: black;
+}
+
+
+.listafinale{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.column{
+    width: 10%;
+}
+
+.listafinale li{
+    margin-top: 20px;
+    color: white;
+}
+
+.listafinale li:first-child{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.world{
+    color: white;
+    padding-left: 400px;
+    padding-bottom: 50px;
+}
