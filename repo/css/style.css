@@ -339,15 +339,14 @@ footer{
 
 
 .listafinale{
-    height: 600px;
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: row;
-    gap: 40px;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    gap: 80px;
+    padding-top: 100px;
+  
 }
 
 
